@@ -1,6 +1,6 @@
 {
   "name": "@rdeak/semantic-release-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Robert Deak <robert.deak@gmail.com>",
   "repository": {
     "type": "git",

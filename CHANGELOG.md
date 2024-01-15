@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/rdeak/semantic-release-config/compare/v1.0.1...v1.0.2) (2024-01-15)
+
+
+### Documentation
+
+* **README:** update commit messages mapping ([ceee3aa](https://github.com/rdeak/semantic-release-config/commit/ceee3aac7db1a0a6934532ba22a00949b9569a47))
+
+
+### Code Refactoring
+
+* **README:** update commit messages mapping ([a41bade](https://github.com/rdeak/semantic-release-config/commit/a41bade4358cf6daf62c25ea8b5dad3f89f3ae3f))
+
 ## [1.0.1](https://github.com/rdeak/semantic-release-config/compare/v1.0.0...v1.0.1) (2024-01-15)
 
 

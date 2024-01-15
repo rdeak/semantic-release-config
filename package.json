@@ -19,7 +19,7 @@
     "release",
     "conventionalcommits"
   ],
-  "main": ".releasesrc.json",
+  "main": ".releaserc.json",
   "files": [
     ".releaserc.json"
   ],

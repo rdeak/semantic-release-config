@@ -10,8 +10,8 @@ Configuration for semantic-release for GitHub with
 | ------------------- | ------ |
 | perf                | patch  |
 | refactor            | patch  |
+| fix                 | patch  |
 | feat                | minor  |
-| fix                 | minor  |
 | BREAKING CHANGE     | major  |
 
 ## Installation

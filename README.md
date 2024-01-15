@@ -31,7 +31,7 @@ npm install --save-dev semantic-release @rdeak/semantic-release-config
 ```
 
 2. [Create NPM token](https://docs.npmjs.com/creating-and-viewing-access-tokens) and
-   add it into [Github repository secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) as `NPM_SECRET`.
+   add it into [Github repository secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) as `NPM_TOKEN`.
 
    [Read more](https://github.com/jednano/semantic-release-npm-github-config#plugins) in documentation.
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/rdeak/semantic-release-config/compare/v1.0.2...v1.0.3) (2024-01-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update lock file ([da52618](https://github.com/rdeak/semantic-release-config/commit/da526189e04c8c8c3439f9ee54fb16081b756807))
+
+
+### Code Refactoring
+
+* **deps:** use range for peerDependencies ([fd4af0f](https://github.com/rdeak/semantic-release-config/commit/fd4af0fcacd759b276ee4da28afe0458ec87f939))
+
 ## [1.0.2](https://github.com/rdeak/semantic-release-config/compare/v1.0.1...v1.0.2) (2024-01-15)
 
 

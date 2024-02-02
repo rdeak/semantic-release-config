@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/rdeak/semantic-release-config/compare/v1.0.3...v1.0.4) (2024-02-02)
+
+
+### Bug Fixes
+
+* **README:** added private scope step ([5cd2bce](https://github.com/rdeak/semantic-release-config/commit/5cd2bce33069af1288f6f1b54427a541a9dfe481))
+
+
+### Miscellaneous Chores
+
+* reformat ([ecf810f](https://github.com/rdeak/semantic-release-config/commit/ecf810f548e252032126e87876055287ec4f6c58))
+
 ## [1.0.3](https://github.com/rdeak/semantic-release-config/compare/v1.0.2...v1.0.3) (2024-01-16)
 
 

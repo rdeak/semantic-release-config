@@ -21,8 +21,13 @@
   ],
   "main": ".releaserc.json",
   "files": [
-    ".releaserc.json"
+    ".releaserc.json",
+    ".releaserc-release-only.json"
   ],
+  "exports": {
+    ".": "./.releaserc.json",
+    "./release-only": "./.releaserc-release-only.json"
+  },
   "sideEffects": false,
   "dependencies": {
     "@semantic-release/git": "^10.0.1",

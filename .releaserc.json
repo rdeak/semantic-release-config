@@ -46,6 +46,12 @@
       {
         "assets": "pack/*.tgz"
       }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "successCmd": "echo \"::set-output name=version::${nextRelease.version}\""
+      }
     ]
   ],
   "branches": ["main"]

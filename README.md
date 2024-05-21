@@ -14,6 +14,8 @@ Configuration for semantic-release for GitHub with
 | feat                | minor  |
 | BREAKING CHANGE     | major  |
 
+Configuration exposes next release version in Github env variable called `version` and can be referenced like `${{env.version}}`
+
 ## Installation
 
 ```bash

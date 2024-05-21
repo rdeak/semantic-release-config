@@ -6,6 +6,8 @@
 Configuration for semantic-release for GitHub with
 [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/), GitHub releases, changelog and npm publishing.
 
+## Commit message rules
+
 | Commit message type | Semver |
 | ------------------- | ------ |
 | perf                | patch  |
@@ -13,8 +15,6 @@ Configuration for semantic-release for GitHub with
 | fix                 | patch  |
 | feat                | minor  |
 | BREAKING CHANGE     | major  |
-
-Configuration exposes next release version in Github env variable called `version` and can be referenced like `${{env.version}}`
 
 ## Installation
 
@@ -56,9 +56,22 @@ registry=https://registry.npmjs.org/
 ```json
 {
   "extends": "@rdeak/semantic-release-config",
-  "branches": ["release"]
+  "branches": ["main"]
 }
 ```
+
+## Additional configurations
+
+### Release only
+
+```json
+{
+  "extends": "@rdeak/semantic-release-config/release-only",
+  "branches": ["main"]
+}
+```
+
+It creates just Github release with changelog and tag.
 
 ## License
 

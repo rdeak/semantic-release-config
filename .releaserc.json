@@ -46,12 +46,6 @@
       {
         "assets": "pack/*.tgz"
       }
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        "successCmd": "echo \"version=${nextRelease.version}\" >> $GITHUB_ENV"
-      }
     ]
   ],
   "branches": ["main"]

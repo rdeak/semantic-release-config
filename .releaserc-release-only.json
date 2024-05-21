@@ -35,13 +35,7 @@
         "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
       }
     ],
-    ["@semantic-release/github"],
-    [
-      "@semantic-release/exec",
-      {
-        "successCmd": "echo \"version=${nextRelease.version}\" >> $GITHUB_ENV"
-      }
-    ]
+    ["@semantic-release/github"]
   ],
   "branches": ["main"]
 }

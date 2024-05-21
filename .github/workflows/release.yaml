@@ -34,11 +34,10 @@ jobs:
       - run: pnpm install
       - run: pnpm prettier
       - name: Release
-        id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Generate summary
         run: |
-          echo "Release version: ${{ steps.release.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "Release version: ${{ env.version }}" >> $GITHUB_STEP_SUMMARY
